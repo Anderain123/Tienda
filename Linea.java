@@ -1,6 +1,10 @@
 
 /**
- * Esta clase recoge un producto y la cantidad de el que hay.
+ * Ejercicios de entorno de Desarrollo
+ * 
+ * Línea de Produtos de Tienda
+ *
+ *Esta clase recoge un producto y la cantidad de el que hay.
  * 
  * @author (Dayanna Carrero & Ander Muñoz) 
  * @version (21/01/20)
@@ -14,8 +18,8 @@ public class Linea
     /**
      * Constructor for objects of class Linea
      * 
-     * @param Hay que introducir un producto y la cantidad(int).
-     * @return No devuelve nada.
+     * @param producto Almacena el valor de descripción en línea
+     * @param cantidad Almacena el valor de cantidad en línea
      */
     public Linea(Producto productito, int cuantos)
     {
@@ -25,8 +29,8 @@ public class Linea
     /**
      * Devuelve la cantidad de productos que hay en la línea.
      * 
-     * @param No hay qie introducir nada
-     * @return Devuelve un int con la cantidad.
+     * @param cantidad no hay que introducir nada
+     * @return cantidad Devuelve un int con la cantidad.
      */
     public int getCantidad()
     {
@@ -35,8 +39,7 @@ public class Linea
     /**
      * Cambia la cantidad de la linea por otra cantidad.
      * 
-     * @param La nueva cantidad(int).
-     * @return No devuelve nada.
+     * @param cantidad int que almacena la cantidad en la línea
      */
     public void setCantidad(int nuevaCantidad)
     {
@@ -46,7 +49,7 @@ public class Linea
      * Devuelve el producto que hay en la línea.
      * 
      * @param No hay que introducir nada
-     * @return Devuelve el producto.
+     * @return producto devuelve valor de producto
      */
     public Producto getProducto()
     {
@@ -55,8 +58,8 @@ public class Linea
     /**
      * Cambia el producto de la linea por otro producto.
      * 
-     * @param El nuevo producto.
-     * @return No devuelve nada.
+     * @param producto almacena nuevo valor de prodcuto en línea
+     * @see Producto
      */
     public void setProducto(Producto nuevoProducto)
     {

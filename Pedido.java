@@ -1,6 +1,8 @@
 import java.util.HashMap;
 /**
- * Write a description of class Pedido here.
+ * Ejercicios de entorno de Desarrollo
+ * 
+ * Pedido de Produtos de Tienda
  * 
  * @author (Dayanna Carrero & Ander Muñoz) 
  * @version (21/01/20)
@@ -11,10 +13,10 @@ public class Pedido
     private String direccionEnvio;
     private String nombreCliente;
     private int carmelo;
+   
     /**
-     * Constructor for objects of class Pedido.
-     * 
-     * @param Una direccion(String) y un nombre(String).
+     * Constructor class Pedido.
+
      */
     public Pedido(String direccion, String nombre)
     {
@@ -24,11 +26,21 @@ public class Pedido
        carmelo = 1;
     }
     
+    /**
+     * 
+     * @return direcciónEnvio string con la dirección del envío
+     * 
+     */
     public String getDireccion()
     {
         return direccionEnvio;
     }
     
+    /**
+     * 
+     * @return nombreCliente string con el nombre del cliente
+     * 
+     */
     public String getNombreCliente()
     {
         return nombreCliente;

@@ -19,16 +19,15 @@ public class Producto
     
     public Producto(String nombre, double precio)
     {
-      precioProducto = precio;
-      nombreProducto = nombre;
+      this.precioProducto = precio;
+      this.nombreProducto = nombre;
     }
     
     /**
      * Devuelve un double con el precio del producto.
      * 
-     * @param No hay que introducir nada
-     * @return Devuelve un double con el precio del producto.
-     * 
+     * @return precioProducto Devuelve un double con el precio del producto.
+     * @param precioProducto no hay que introducir ningún valor
      */
     public double getPrecio()
     {
@@ -37,9 +36,8 @@ public class Producto
     /**
      * Devuelve un String con el nombre del producto.
      * 
-     * @param No hay que introducir nada
-     * @return Devuelve un String con el nombre del producto.
-     * 
+     * @return nombreProducto Devuelve un String con el nombre del producto.
+     * @param nombreProducto no hay que introducir ningún valor
      */
     public String getNombre()
     {
@@ -48,6 +46,7 @@ public class Producto
     
     /**
      * Cambia el valor del precio del producto
+     * @param precioProducto almacena el precio nuevo del producto
      */
     public void setPrecio(double nuevoPrecio)
    {
@@ -56,6 +55,7 @@ public class Producto
     
     /**
      * Cambia el valor de la descripción del producto
+     * @param nombreProducto almacena el nuevo nombre del producto
      */ 
     public void setNombre(String nuevoNombre)
    {
