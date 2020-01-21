@@ -52,7 +52,7 @@ public class Pedido
      * Cambia la direccion de envia por una nueva.
      * 
      * @param nuevaDireccion La nueva direccion de envio(String).
-     * a
+     * 
      */
     public void setDireccion(String nuevaDireccion)
     {
