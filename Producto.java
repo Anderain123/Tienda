@@ -1,8 +1,8 @@
 
 /**
- * Registro de Prodcutos de Tienda
+ * Registro de Produtos de Tienda
  * 
- * @author Dayanna
+ * @author Dayanna Carrero
  * @version (a version number or a date)
  */
 public class Producto
@@ -18,9 +18,13 @@ public class Producto
       precioProducto = precio;
       nombreProducto = nombre;
     }
-
+    
     /**
-     * Introduce Producto en tienda 
+     * Devuelve un double con el precio del producto.
+     * 
+     * @param No hay que introducir nada
+     * @return Devuelve un double con el precio del producto.
+     * 
      */
     public double getPrecio()
     {
@@ -33,5 +37,17 @@ public class Producto
     public String getNombre()
     {
         return nombreProducto;
+    }
+    /**
+     * 
+     */
+    public void setPrecio(double nuevoPrecio)
+   {
+       precioProducto = nuevoPrecio;
+    }
+    
+     public void setNombre(String nuevoNombre)
+   {
+       nombreProducto = nuevoNombre;
     }
 }
