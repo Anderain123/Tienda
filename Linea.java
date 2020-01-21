@@ -18,10 +18,15 @@ public class Linea
     /**
      * Constructor for objects of class Linea
      * 
+<<<<<<< HEAD
      * @param producto Almacena el valor de descripción en línea
      * @param cantidad Almacena el valor de cantidad en línea
+=======
+     * @param cuantos 
+     * @param productito
+>>>>>>> a80dc211c793eb50ee3cd57074fb7bc5d8b3cba4
      */
-    public Linea(Producto productito, int cuantos)
+    public Linea(int cuantos,Producto productito)
     {
         producto = productito;
         cantidad = cuantos;
@@ -29,8 +34,13 @@ public class Linea
     /**
      * Devuelve la cantidad de productos que hay en la línea.
      * 
+<<<<<<< HEAD
      * @param cantidad no hay que introducir nada
      * @return cantidad Devuelve un int con la cantidad.
+=======
+     * 
+     * @return cantidad.
+>>>>>>> a80dc211c793eb50ee3cd57074fb7bc5d8b3cba4
      */
     public int getCantidad()
     {
@@ -39,7 +49,12 @@ public class Linea
     /**
      * Cambia la cantidad de la linea por otra cantidad.
      * 
+<<<<<<< HEAD
      * @param cantidad int que almacena la cantidad en la línea
+=======
+     * @param nuevaCantidad
+     * 
+>>>>>>> a80dc211c793eb50ee3cd57074fb7bc5d8b3cba4
      */
     public void setCantidad(int nuevaCantidad)
     {
@@ -48,8 +63,13 @@ public class Linea
     /**
      * Devuelve el producto que hay en la línea.
      * 
+<<<<<<< HEAD
      * @param No hay que introducir nada
      * @return producto devuelve valor de producto
+=======
+     * 
+     * @return producto
+>>>>>>> a80dc211c793eb50ee3cd57074fb7bc5d8b3cba4
      */
     public Producto getProducto()
     {
@@ -58,8 +78,13 @@ public class Linea
     /**
      * Cambia el producto de la linea por otro producto.
      * 
+<<<<<<< HEAD
      * @param producto almacena nuevo valor de prodcuto en línea
      * @see Producto
+=======
+     * @param nuevoProducto.
+     * 
+>>>>>>> a80dc211c793eb50ee3cd57074fb7bc5d8b3cba4
      */
     public void setProducto(Producto nuevoProducto)
     {
