@@ -26,8 +26,8 @@ public class Producto
     /**
      * Devuelve un double con el precio del producto.
      * 
-     * @param No hay que introducir nada.
-     * @return Devuelve un double con el precio del producto.
+     * 
+     * @return precioProducto
      * 
      */
     public double getPrecio()
@@ -37,8 +37,8 @@ public class Producto
     /**
      * Devuelve un String con el nombre del producto.
      * 
-     * @param No hay que introducir nada.
-     * @return Devuelve un String con el nombre del producto.
+     * 
+     * @return nombreProducto.
      * 
      */
     public String getNombre()
@@ -49,7 +49,7 @@ public class Producto
     /**
      * Cambia el valor del precio del producto.
      * 
-     * @param El nuevo precio(double).
+     * @param nuevoPrecio
      */
     public void setPrecio(double nuevoPrecio)
    {
@@ -59,7 +59,7 @@ public class Producto
     /**
      * Cambia el valor de la descripción del producto.
      * 
-     * @param El nuevo nombre(String).
+     * @param nuevoNombre
      */ 
     public void setNombre(String nuevoNombre)
    {

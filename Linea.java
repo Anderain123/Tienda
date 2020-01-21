@@ -14,10 +14,10 @@ public class Linea
     /**
      * Constructor for objects of class Linea
      * 
-     * @param Hay que introducir un producto y la cantidad(int).
-     * @return No devuelve nada.
+     * @param cuantos 
+     * @param productito
      */
-    public Linea(Producto productito, int cuantos)
+    public Linea(int cuantos,Producto productito)
     {
         producto = productito;
         cantidad = cuantos;
@@ -25,8 +25,8 @@ public class Linea
     /**
      * Devuelve la cantidad de productos que hay en la línea.
      * 
-     * @param No hay qie introducir nada
-     * @return Devuelve un int con la cantidad.
+     * 
+     * @return cantidad.
      */
     public int getCantidad()
     {
@@ -35,8 +35,8 @@ public class Linea
     /**
      * Cambia la cantidad de la linea por otra cantidad.
      * 
-     * @param La nueva cantidad(int).
-     * @return No devuelve nada.
+     * @param nuevaCantidad
+     * 
      */
     public void setCantidad(int nuevaCantidad)
     {
@@ -45,8 +45,8 @@ public class Linea
     /**
      * Devuelve el producto que hay en la línea.
      * 
-     * @param No hay que introducir nada
-     * @return Devuelve el producto.
+     * 
+     * @return producto
      */
     public Producto getProducto()
     {
@@ -55,8 +55,8 @@ public class Linea
     /**
      * Cambia el producto de la linea por otro producto.
      * 
-     * @param El nuevo producto.
-     * @return No devuelve nada.
+     * @param nuevoProducto.
+     * 
      */
     public void setProducto(Producto nuevoProducto)
     {
