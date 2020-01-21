@@ -1,49 +1,33 @@
-import java.util.HashMap;
+
 /**
- * Ejercicios de entorno de Desarrollo
+ * Write a description of class Pedido here.
  * 
- * Pedido de Produtos de Tienda
- * 
- * @author (Dayanna Carrero & Ander Muñoz) 
- * @version (21/01/20)
+ * @author (your name) 
+ * @version (a version number or a date)
  */
 public class Pedido
 {
-    private HashMap<Integer, Linea> lineas;
-    private String direccionEnvio;
-    private String nombreCliente;
-    private int carmelo;
-   
-    /**
-     * Constructor class Pedido.
+    // instance variables - replace the example below with your own
+    private int x;
 
-     */
-    public Pedido(String direccion, String nombre)
-    {
-       lineas = new HashMap();
-       direccionEnvio = direccion;
-       nombreCliente = nombre;
-       carmelo = 1;
-    }
-    
     /**
-     * 
-     * @return direcciónEnvio string con la dirección del envío
-     * 
+     * Constructor for objects of class Pedido
      */
-    public String getDireccion()
+    public Pedido()
     {
-        return direccionEnvio;
+        // initialise instance variables
+        x = 0;
     }
-    
+
     /**
+     * An example of a method - replace this comment with your own
      * 
-     * @return nombreCliente string con el nombre del cliente
-     * 
+     * @param  y   a sample parameter for a method
+     * @return     the sum of x and y 
      */
-    public String getNombreCliente()
+    public int sampleMethod(int y)
     {
-        return nombreCliente;
+        // put your code here
+        return x + y;
     }
-    
 }
