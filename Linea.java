@@ -8,6 +8,7 @@
 public class Linea
 {
     private Producto producto;
+    
     private int cantidad;
 
     /**

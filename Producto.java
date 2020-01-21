@@ -1,16 +1,20 @@
 
 /**
+ * Ejercicios de entorno de Desarrollo
+ * 
  * Registro de Produtos de Tienda
  * 
- * @author Dayanna Carrero
- * @version (a version number or a date)
+ * @author Dayanna Carrero & Ander Muñoz
+ * @version 21/01/2020
  */
+
 public class Producto
 {
     private double precioProducto;
     private String nombreProducto;
+    
     /**
-     * Constructor for objects of class Producto
+     * Constructor class Producto
      */
     
     public Producto(String nombre, double precio)
@@ -30,23 +34,30 @@ public class Producto
     {
         return precioProducto;
     }
-    
-     /**
-     * Introduce Nombre Producto en tienda 
+    /**
+     * Devuelve un String con el nombre del producto.
+     * 
+     * @param No hay que introducir nada
+     * @return Devuelve un String con el nombre del producto.
+     * 
      */
     public String getNombre()
     {
         return nombreProducto;
     }
+    
     /**
-     * 
+     * Cambia el valor del precio del producto
      */
     public void setPrecio(double nuevoPrecio)
    {
        precioProducto = nuevoPrecio;
     }
     
-     public void setNombre(String nuevoNombre)
+    /**
+     * Cambia el valor de la descripción del producto
+     */ 
+    public void setNombre(String nuevoNombre)
    {
        nombreProducto = nuevoNombre;
     }
